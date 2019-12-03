@@ -3,6 +3,9 @@ body {
 
 }
 
+hr {
+	margin-left: 30px;
+}
 .logo {
 	display: flex;
 	position: relative;
@@ -12,7 +15,7 @@ body {
 .header1 {
 font-family: Helvetica, Arial, sans-serif;
 text-align: center;
-margin-right: 20px;
+margin-left: 10px;
 
 }
 
@@ -20,8 +23,8 @@ margin-right: 20px;
 	margin-left: 10px;
 	margin-top: 5px;
 	margin-bottom: 5px; 
-	padding-right: 100px;
-	margin-right: 100px;
+	padding-right: 20px;
+	margin-right: 20px;
 
 }
 
@@ -31,8 +34,8 @@ margin-right: 20px;
 	width: 100%;
 	position: relative;
 	text-align: left;
-	padding-left: 100px;
-	margin-left: 100px;
+	padding-left: 70px;
+	margin-left: 70px;
 	margin-top: 27px;
 }
 
@@ -55,16 +58,19 @@ margin-right: 20px;
 }
 
 .content1 {
+	margin-left: 30px;
 	text-align: center;
 	margin-top: 80px;
 }
 
 /*--Index Page--*/
 .resources {
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	margin-top: 20px;
+	margin-left: 38px;
 }
 
 .resource1 {
@@ -78,7 +84,7 @@ margin-right: 20px;
 
 .smallpic1, .smallpic2 , .smallpic3, .smallpic4, .smallpic5 {
 	text-align: center;
-	width: 300px;
+	width: 320px;
 	height: 400px; /* Remove When Content is added */
 }
 
